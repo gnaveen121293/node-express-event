@@ -4,8 +4,7 @@
   "description": "my new events",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "\"naveen goverthanan\"",
   "license": "ISC",
@@ -14,7 +13,7 @@
     "chai": "^3.5.0",
     "express": "^4.15.3",
     "mocha": "^3.4.1",
-    "mongoose": "^4.10.2",
-    "nodemon": "^1.11.0"
-  }
+    "mongoose": "^4.10.2"
+  },
+  "dependencies": {}
 }

@@ -2,6 +2,10 @@ var express=require("express");
 var app=express();
 
 var router=express.Router();
+
+             var importData=require("./import.js")
+
+             console.log(importData)
 router.get("/",function(request,response)
 {
 response.json({message:"Hello Bengalore!!"})
